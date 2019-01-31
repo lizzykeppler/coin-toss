@@ -1,13 +1,6 @@
 const test = QUnit.test;
 
-function headsorTails(randomNumber) {
-    if(randomNumber < 0.5) {
-        return 'tails';
-    }
-    else {
-        return 'heads';
-    }
-}
+import headsorTails from '../src/coin-toss.js';
 
 
 test('if randomNumber is less than 0.5, return tails', function(assert) {

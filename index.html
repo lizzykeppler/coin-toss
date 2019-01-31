@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Coin Toss Solo Build</title>
+    <link rel="stylesheet" type="text/css" href="main.css"/>
 </head>
 <body>
     <header>
@@ -12,13 +13,21 @@
     </header>
 
     <main>
-        <h2>Click below to toss the coin!</h2>
-
-
-
+            <h2>Click below to toss the coin!</h2>
+        <section>
+             <p id="tails-count">Coin landed on tails:</p>
+             <p id="heads-count">Coin landed on heads:</p>
+             <p id="result">see you result below</p>
+        </section>
+        <section id="image-container">
+            <img src="" class="hidden" id="coin-image" alt="picture of either heads or tails coin"/>
+        </section>
+        <form id='coin-form'>
+            <button>Click To Toss Coin</button>
+        </form>
     </main>
 
     <footer></footer>
-
+    <script type="module" src="src/index.js"></script>
 </body>
 </html>

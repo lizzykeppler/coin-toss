@@ -1,0 +1,14 @@
+.hidden {
+    visibility: hidden;
+}
+
+#image-container {
+    border: 1px solid black;
+    height: 160px;
+    width: 160px;
+}
+
+img {
+    width: 140px;
+    height: 150px;
+}
